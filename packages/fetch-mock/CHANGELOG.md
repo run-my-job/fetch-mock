@@ -1,5 +1,67 @@
 # Changelog
 
+## [13.0.0](https://github.com/run-my-job/fetch-mock/compare/fetch-mock-v12.5.3...fetch-mock-v13.0.0) (2025-07-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Replaced legacy fetch-mock code with fetch-mock/core code
+* force fetch-mock major release
+
+### Features
+
+* add ability to wait for multiple routes ([c3dc9c3](https://github.com/run-my-job/fetch-mock/commit/c3dc9c35da89e7ffb0ccb1bb72975acb15b13c30))
+* added overwriteRoutes: true rule to codemods ([b3d1468](https://github.com/run-my-job/fetch-mock/commit/b3d1468f93fb1bf18b5d3bf8c0a21dd56ad4d0aa))
+* **fetch-mock:** add include: matcher for urls ([02f880c](https://github.com/run-my-job/fetch-mock/commit/02f880c64f96559efbccee6ba6d7ca4288efd92a))
+* implement new hardReset method ([d7e0776](https://github.com/run-my-job/fetch-mock/commit/d7e0776ea54011bcccaee1e1edfb986e9f1a4397))
+* implement waitFor option ([5500228](https://github.com/run-my-job/fetch-mock/commit/550022826826defe1f3c844972e74bb64790596f))
+* implemented modifyRoute() method ([f62e3d6](https://github.com/run-my-job/fetch-mock/commit/f62e3d6f9cf36d4bcb282089b63b0b5a5ee0c21c))
+* implemented removeRoute method ([584a861](https://github.com/run-my-job/fetch-mock/commit/584a8619cae2e8ae513d2edc784dc7bbe13aa614))
+* match formdata bodies ([ab7dff4](https://github.com/run-my-job/fetch-mock/commit/ab7dff427454b6238e2228280a828c19b1f1df31))
+* remove debug mode from fetch-mock ([224e98c](https://github.com/run-my-job/fetch-mock/commit/224e98cbc78655cf43a20d7afc78732eaca8862e))
+* remove debug mode from fetch-mock ([89890b6](https://github.com/run-my-job/fetch-mock/commit/89890b6ec39077b769617f02bdf5de7b971fc52c))
+* Replaced legacy fetch-mock code with fetch-mock/core code ([999ce92](https://github.com/run-my-job/fetch-mock/commit/999ce9257de6683830c8e70dcda3862c3d13699e))
+* update codemods to use hardReset() ([757d480](https://github.com/run-my-job/fetch-mock/commit/757d480532cfa8054471dec1bfcd89688966e37b))
+
+
+### Bug Fixes
+
+* add license file to each package ([9b36f89](https://github.com/run-my-job/fetch-mock/commit/9b36f892ed19cd381b1f8ebbd94a28773637b9ec))
+* add missing metadata to package.json files ([4ab78b9](https://github.com/run-my-job/fetch-mock/commit/4ab78b9429a376230da2ce57bd320031c53f06ef))
+* add wrapper class to fix type ambiguity ([b093bb0](https://github.com/run-my-job/fetch-mock/commit/b093bb086836902761cd80ddb83198b8a22bc1e1))
+* add wrapper class to fix type ambiguity ([ea45aec](https://github.com/run-my-job/fetch-mock/commit/ea45aec4b5d268bcf8ca253b2c1df796040aff8d))
+* allow matching body for delete requests ([686ab2e](https://github.com/run-my-job/fetch-mock/commit/686ab2e9c94c1332a30c10d13a7d8a7ce8e44dbc))
+* allow matching body for delete requests ([891197c](https://github.com/run-my-job/fetch-mock/commit/891197c37eb6f85b50002df024bfcfcbdae500b3))
+* allow matching relative URLs ([2cba1bc](https://github.com/run-my-job/fetch-mock/commit/2cba1bc0fdf6a042a715b2cb329ba5f369a71a5e))
+* allow sending responses with status 0 ([cf98023](https://github.com/run-my-job/fetch-mock/commit/cf9802327a7d5ca69128130dbcf60cd3e27b073b))
+* allow sending responses with status 0 ([92c06e9](https://github.com/run-my-job/fetch-mock/commit/92c06e933fc8bd2e6b1027d1640d657bcf9a49a9))
+* change export order so default is last ([2250497](https://github.com/run-my-job/fetch-mock/commit/225049756a1e1c4aae080527fe0c61ae1cc0cb50))
+* change export order so default is last ([bc9c41d](https://github.com/run-my-job/fetch-mock/commit/bc9c41d04609c40e609e672254df5ff1ddf0cad9))
+* clearHistory() can deal with unmatched calls ([d40b614](https://github.com/run-my-job/fetch-mock/commit/d40b6144269f431d3c651be20fe7068dbaeee26e))
+* clearHistory() can deal with unmatched calls ([012e9ca](https://github.com/run-my-job/fetch-mock/commit/012e9ca7d03e39e6832f9f40087ec53d6ccc2728))
+* clone response before using ([2ccf18e](https://github.com/run-my-job/fetch-mock/commit/2ccf18e1fd2c659b55c549e3be2d009d738656d2))
+* fix failure to spy in browsers ([bfaa5f3](https://github.com/run-my-job/fetch-mock/commit/bfaa5f33c133af17a0bd097d2d3dbcb01966a0a8))
+* fixes importimng into .mts files ([98ad40e](https://github.com/run-my-job/fetch-mock/commit/98ad40ee5351f1f2f16edf1bbcc626ce94d0d629))
+* force fetch-mock major release ([1b31416](https://github.com/run-my-job/fetch-mock/commit/1b314167607b15887feba2f6124a9af9cca81c47))
+* improve handling of abort ([c9d7eb2](https://github.com/run-my-job/fetch-mock/commit/c9d7eb23b3d5bf2a3d708df2ab6d460a134f7872))
+* improve handling of abort ([5c1085d](https://github.com/run-my-job/fetch-mock/commit/5c1085d59d0dee600691ba7fba642869a623aa68))
+* lastOptions returns RequestInit not MockOptions ([24d9683](https://github.com/run-my-job/fetch-mock/commit/24d9683bf4d1fceb78407a36c257121b8a13ed96))
+* lastOptions returns RequestInit not MockOptions ([591926a](https://github.com/run-my-job/fetch-mock/commit/591926a7c524650ccb82b16611fc8882c4a8a2b6))
+* make types for modify route config more accurate ([6894569](https://github.com/run-my-job/fetch-mock/commit/689456923ea902c820688cbb9010b25ecf1387a1))
+* prevented overwriting stickiness of a route ([87f8c9b](https://github.com/run-my-job/fetch-mock/commit/87f8c9beaf66e07bfc145b1a4069f157f535a248))
+* remove deprecated is-subset-of ([62bc8d3](https://github.com/run-my-job/fetch-mock/commit/62bc8d31622ef94de73300fc273326f2bef1f9f4))
+* remove deprecated is-subset-of ([a2546ef](https://github.com/run-my-job/fetch-mock/commit/a2546ef871e279ca5ef76d925f0491386c0809b2))
+* roll back to glob-to-regexp ([3ffff37](https://github.com/run-my-job/fetch-mock/commit/3ffff37497e364c1d6d56d48a749c03f19540a27))
+* roll back to glob-to-regexp ([b114124](https://github.com/run-my-job/fetch-mock/commit/b11412452ed376ab2e20e03a51f0dc1de1dcdb90))
+* use a promise, no function, to implement waitFor ([8783101](https://github.com/run-my-job/fetch-mock/commit/87831010c24c1de47e1b458131c07468f44e1e74))
+
+
+### Documentation Changes
+
+* another occurrence of the cheatsheet ref ([875e4f6](https://github.com/run-my-job/fetch-mock/commit/875e4f6bd7b50229b6f83e14075c1a3fcd6210a4))
+* fix link to cheatsheet ([513e3c4](https://github.com/run-my-job/fetch-mock/commit/513e3c49fe2ff045124faf93278a1ea24cf0b587))
+* fix link to cheatsheet ([33e75b1](https://github.com/run-my-job/fetch-mock/commit/33e75b1cd2391c9d4c1c9770c3be4fb771f7f726))
+
 ## [12.5.3](https://github.com/wheresrhys/fetch-mock/compare/fetch-mock-v12.5.2...fetch-mock-v12.5.3) (2025-06-17)
 
 

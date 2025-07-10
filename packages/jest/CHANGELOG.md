@@ -1,6 +1,52 @@
 # Changelog
 
 
+## [0.3.0](https://github.com/run-my-job/fetch-mock/compare/jest-v0.2.16...jest-v0.3.0) (2025-07-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Replaced legacy fetch-mock code with fetch-mock/core code
+
+### Features
+
+* new @fetch-mock/jest wrapper ([0565e32](https://github.com/run-my-job/fetch-mock/commit/0565e32efc47ecd5ea3bd03955b0711f865902d4))
+* new @fetch-mock/jest wrapper ([93f35c6](https://github.com/run-my-job/fetch-mock/commit/93f35c645ff9a4206cde0ce27785a089c49dbcb6))
+* Replaced legacy fetch-mock code with fetch-mock/core code ([999ce92](https://github.com/run-my-job/fetch-mock/commit/999ce9257de6683830c8e70dcda3862c3d13699e))
+* start implementing jest and vitest wrappers ([804f885](https://github.com/run-my-job/fetch-mock/commit/804f885c16a42a7534ee9fac2e103022482e2af6))
+
+
+### Bug Fixes
+
+* add not type definitions ([68b24e7](https://github.com/run-my-job/fetch-mock/commit/68b24e74f508a42dcfa795c040019eff446281d6))
+* adding jestMock extension support to match documentation ([9e41a81](https://github.com/run-my-job/fetch-mock/commit/9e41a8165bd2caf2cda1d88615be907fcf6f0bc4))
+* adding types to jest matchers ([9071395](https://github.com/run-my-job/fetch-mock/commit/9071395c25f9d838c403cbf9cd9e7fe08507031d))
+* adding types to jest matchers ([033048a](https://github.com/run-my-job/fetch-mock/commit/033048a47ffc07508fc0cb2ce79078b4facb86fb))
+* change export order so default is last ([2250497](https://github.com/run-my-job/fetch-mock/commit/225049756a1e1c4aae080527fe0c61ae1cc0cb50))
+* change export order so default is last ([bc9c41d](https://github.com/run-my-job/fetch-mock/commit/bc9c41d04609c40e609e672254df5ff1ddf0cad9))
+* force release of @fetch-mock/jest ([7ff5915](https://github.com/run-my-job/fetch-mock/commit/7ff59159cf3e770249db6b4216c1764291cb8c8d))
+* hooks into jest's global mock management functions ([aaadda0](https://github.com/run-my-job/fetch-mock/commit/aaadda01fe77df773c4e6e9ddc5cf45c1dc8981b))
+* incorrect Jest extension TypeScript type ([9d47c33](https://github.com/run-my-job/fetch-mock/commit/9d47c333a097ed9d1bd68f24bd745d200f3982b3))
+* incorrect Jest matcher extension TypeScript type ([8a8e894](https://github.com/run-my-job/fetch-mock/commit/8a8e894894e40dcc9631b69df697627f3925172f))
+* one step closer to fixing types in jest wrapper ([b69f595](https://github.com/run-my-job/fetch-mock/commit/b69f59552fdd70840f55fb02376c56481995897d))
+* remove extraneous console.log ([c2c92a4](https://github.com/run-my-job/fetch-mock/commit/c2c92a48e393c2bf503d51dd436b6788cf66eb52))
+* use file extension to avoid import errors for vitest and jest wrappers ([17cdda0](https://github.com/run-my-job/fetch-mock/commit/17cdda017f84340284d21d6eb7bba66fc4444e94))
+* use file extension to avoid import errors for vitest and jest wrappers ([f1f25f1](https://github.com/run-my-job/fetch-mock/commit/f1f25f1bd921daf585033ac43ddbca1f32c9aafb))
+
+
+### Documentation Changes
+
+* bring jest docs into website ([18ae8b6](https://github.com/run-my-job/fetch-mock/commit/18ae8b63d4c01a3aacf71f84d6af1a49f6409685))
+* document patch for comptibility with jsdom ([2b548ec](https://github.com/run-my-job/fetch-mock/commit/2b548ec35a92845c056019f8f82225d40a0ff133))
+* document patch for comptibility with jsdom ([a2f6094](https://github.com/run-my-job/fetch-mock/commit/a2f609456400e2b769b3144a25fe1e62be323e1a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * fetch-mock bumped from ^12.5.3 to ^13.0.0
+
 ## [0.2.16](https://github.com/wheresrhys/fetch-mock/compare/jest-v0.2.15...jest-v0.2.16) (2025-06-17)
 
 
